@@ -1,0 +1,24 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Vector database
+chroma_db/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
